@@ -12,7 +12,7 @@ def test_network(net, trainloader):
     dataiter = iter(trainloader)
     images, labels = dataiter.next()
 
-    # Create Variables for the inputs and targets
+    # Variables for the inputs and targets
     inputs = Variable(images)
     targets = Variable(images)
 
@@ -29,7 +29,7 @@ def test_network(net, trainloader):
 
 
 def imshow(image, ax=None, title=None, normalize=True):
-    """Imshow for Tensor."""
+    # Imshow for Tensor.
     if ax is None:
         fig, ax = plt.subplots()
     image = image.numpy().transpose((1, 2, 0))
