@@ -6,4 +6,6 @@ Example-1:<br>
 <br><br>
 Example-2:<br>
 <img src='pic-2.png'/><br>
-Accuracy about 85%.
+Accuracy about 85%.<br>
+The second file is the same except it uses tenserflow 2.2.0 as the framework.
+Accuracy about 88%
